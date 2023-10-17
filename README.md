@@ -31,6 +31,8 @@ To run BSpell for Bangla spelling correction, please follow the steps below:
             * tokenizer_path: Path to the tokenizer file.
             * dict_Of_index_Top_Words_path: Path to the dictionary of index-top words file.
             * model_path: Path to the saved BSpell model.
+    ## Example
+        python main.py "D:\Downloads\BSpell\wrong.txt" "D:\Downloads\BSpell\CorrecT.txt" "D:\Downloads\BSpell\tokenizer.pickle" "D:\Downloads\BSpell\dict_Of_index_Top_Words.pickle" "D:\Downloads\BSpell\SC model"
 
 # Model and Dataset Link:
 Drive Link: https://drive.google.com/drive/folders/1bMKEVNwBef84TFl-Z5tSRBtIZmooYCUm?usp=sharing
